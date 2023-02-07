@@ -1,4 +1,4 @@
-/* steam卡单小助手 */
+/* steam卡单小助手 v2.0 */
 /* 免责声明：本脚本开源且免费使用，不得用于商业行为，严禁倒卖行为！！！ */
 /* 免责声明：本脚本开源且免费使用，不得用于商业行为，严禁倒卖行为！！！ */
 /* 免责声明：本脚本开源且免费使用，不得用于商业行为，严禁倒卖行为！！！ */
@@ -132,9 +132,12 @@ Loop
 Rem 成功卡单		//判断是否已经返回初始页面
 
 Do
-	MoveTo 20, 50
+	FindPic 0,0,1920,1080,"Attachment:\返回.bmp",1,intX,intY
+	If intX > 0 And intY > 0 Then 
+	MoveTo intX, intY
 	LeftClick 1
 	Delay 1000
+	End If
 	FindPic 0,0,1920,1080,"Attachment:\为自己购买.bmp",1,intX,intY
 	If intX > 0 And intY > 0 Then 
 		Goto 完成执行
