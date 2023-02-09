@@ -9,7 +9,7 @@ StopHotkeyMod=0
 RunOnce=1
 EnableWindow=
 MacroID=4fe824be-03b8-40fc-ad96-fd3e2dd0f55b
-Description=steam卡单小助手　　B站：雪银星月
+Description=steam卡单小助手　 B站：雪银星月
 Enable=1
 AutoRun=0
 [Repeat]
@@ -22,15 +22,18 @@ QUI=Form1
 SetupOCXFile=
 [Comment]
 注：若使用本脚本，造成的一切后果自行承担！！！
-仅适配1920×1080分辨率
+仅适配1920×1080分辨率，屏幕缩放为100%，steam原背景，不可加滤镜
+
 打开steam客户端（网页版会卡住）
 把游戏添加到购物车
 打开购物车页面
+
 F10启动 F12停止
+
 第一次卡单的需填写好steam账单信息并保存（乱填就行）
-已拥有此游戏无法卡单，进入客服页面移除即可
+注：已拥有此游戏无法卡单，进入客服页面移除即可解决
 后续可通过客服页面再次入库
-免责声明：本脚本开源且免费使用，不得用于商业行为，严禁倒卖行为！！！
+
 免责声明：本脚本开源且免费使用，不得用于商业行为，严禁倒卖行为！！！
 免责声明：本脚本开源且免费使用，不得用于商业行为，严禁倒卖行为！！！
 
@@ -40,12 +43,15 @@ UEsDBBQAAgAIAIJ2RVZ6+uGb7wEAAHYHAAAIABEAuPy4xC5ibXBVVA0AB7HC32PPxt9jscLfY8VVsUoD
 
 [Script]
 /* steam卡单小助手 v2.0 */
-/* 免责声明：本脚本开源且免费使用，不得用于商业行为，严禁倒卖行为！！！ */
-/* 免责声明：本脚本开源且免费使用，不得用于商业行为，严禁倒卖行为！！！ */
-/* 免责声明：本脚本开源且免费使用，不得用于商业行为，严禁倒卖行为！！！ */
 /* 若使用脚本，造成的一切后果自行承担！！！ */
-/* B站：雪银星月 https://space.bilibili.com/36325121 */
-/* 分辨率为1920×1080 */
+/* 若使用脚本，造成的一切后果自行承担！！！ */
+/* 若使用脚本，造成的一切后果自行承担！！！ */
+/* 免责声明：本脚本开源且免费使用，不得用于商业行为，严禁倒卖行为！！！ */
+/* 免责声明：本脚本开源且免费使用，不得用于商业行为，严禁倒卖行为！！！ */
+/* 免责声明：本脚本开源且免费使用，不得用于商业行为，严禁倒卖行为！！！ */
+
+/* 脚本演示：https://www.bilibili.com/video/BV1w54y1N7TX		B站：雪银星月 */
+/* 分辨率为1920×1080 屏幕缩放为100% steam原背景 不可加滤镜*/
 
 Do
 	FindPic 0,0,1920,1080,"Attachment:\为自己购买.bmp",1,intX,intY		//购买
@@ -175,7 +181,7 @@ Rem 成功卡单		//判断是否已经返回初始页面
 Do
 	FindPic 0,0,1920,1080,"Attachment:\返回.bmp",1,intX,intY
 	If intX > 0 And intY > 0 Then 
-	MoveTo intX, intY
+	MoveTo intX+10, intY+10
 	LeftClick 1
 	Delay 1000
 	End If
