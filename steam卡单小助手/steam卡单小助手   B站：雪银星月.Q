@@ -35,7 +35,7 @@ UEsDBBQAAgAIAEwbR1ZkczQ4cQMAALIUAAAQABEAVmlzYaOoufrE2qOpLmJtcFVUDQAHzsThYwtK7GMc
 
 
 [UIPackage]
-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
+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
 
 
 [Script]
@@ -205,6 +205,8 @@ Do
 	If intX > 0 And intY > 0 Then 
 		Goto 更改
 	End If
+	Delay 1000
+	LeftClick 1
 Loop
 
 Rem 填充内容
@@ -284,39 +286,41 @@ If Form1.OptionBox2.Value = 1 and kadan = 1 Then
 		If intX > 0 And intY > 0 Then 
 			MoveTo intX, intY
 			LeftClick 1
-		End If
-		Delay 500
-		FindPic 0,0,1920,1080,"Attachment:\账单信息.bmp",1,intX,intY
-		If intX > 0 And intY > 0 Then 
 			Goto 二次继续
 		End If
 	Loop
 	
 	Rem 二次继续
 	Do
-		FindPic 0,0,1920,1080,"Attachment:\继续.bmp",1,intX,intY
+		FindPic 0, 0, 1920, 1080, "Attachment:\账单信息.bmp", 1, intX, intY
 		If intX > 0 And intY > 0 Then 
-			MoveTo intX, intY
-			LeftClick 1
-			Delay 500
-			Goto 循环
+			FindPic 0,0,1920,1080,"Attachment:\继续.bmp",1,intX,intY
+			If intX > 0 And intY > 0 Then 
+				MoveTo intX, intY
+				LeftClick 1
+				Delay 500
+				Goto 循环
+			End If
 		End If
 	Loop
 End If
 
-Rem 卡单
 Do
-	FindPic 0,0,1920,1080,"Attachment:\返回.bmp",1,intX,intY
+	FindPic 0, 0, 1920, 1080, "Attachment:\账单信息.bmp", 1, intX, intY
 	If intX > 0 And intY > 0 Then 
-	MoveTo intX+10, intY+10
-	LeftClick 1
+		FindPic 0,0,1920,1080,"Attachment:\返回.bmp",1,intX,intY
+		If intX > 0 And intY > 0 Then 
+			MoveTo intX+13, intY+13
+			LeftClick 1
+			Delay 2000
+		End If
 	End If
-	Delay 1000
 	FindPic 0,0,1920,1080,"Attachment:\作为礼物购买.bmp",1,intX,intY
 	If intX > 0 And intY > 0 Then 
 		Goto 完成执行
 	End If
+	Delay 3000
+	LeftClick 1
 Loop
 
 Rem 完成执行
-Delay 1000
